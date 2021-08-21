@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "Timezone / App Finder",
+    "version": "1.0",
+    "description": "Shortcut to find time, date, and few apps",
+    "icons": {
+        "128": "clock.png"
+    },
+    "browser_action": {
+        "default_title": "Timezone / App Finder",
+        "default_popup": "index.html",
+        "icons": "clock.png"
+    },
+    "permissions":["activeTab"],
+    "background":{
+        "scripts": ["app.js"]
+    }
+}

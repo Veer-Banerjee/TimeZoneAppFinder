@@ -1,0 +1,39 @@
+body{
+    text-align: center;
+    width: 350px;
+}
+
+img{
+    width: 55px;
+    padding: 5px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.fa{
+    padding: 15px;
+    width: 20px;
+    color: black;
+}
+
+.fa-youtube:hover{
+    color: red;
+}
+
+.fa-facebook:hover{
+    color: blue;
+}
+
+.fa-twitter:hover{
+    color: lightblue;
+}
+
+.fa-instagram:hover{
+    color: pink;
+}
+
+.fa-github:hover{
+    color: orange;
+}
